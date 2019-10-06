@@ -67,7 +67,7 @@ if(!$pacientes)
                         </select>
                         <label>Observaciones:</label>
                         <textarea placeholder="Observacion:" name="observaciones"></textarea>
-						<input type="submit" name="enviar" value="Agregar Consultorio">
+						<input type="submit" name="enviar" value="Agregar Citas">
 					</form>
 						<?php  if(!empty($mensaje)): ?>
 							<ul>
