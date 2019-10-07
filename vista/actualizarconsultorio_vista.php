@@ -8,8 +8,9 @@
 					</div>
 					<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
                         <h2>EDITAR CONSULTORIOS</h2><br/>
+                        <label>Consultorio:</label>
                         <input type="hidden" name="id" value="<?php echo $consultorio['idConsultorio'];?>">
-                        <input type="text" name="nombre" placeholder="Especialdades:" value="<?php echo $consultorio['conNombre'];?>" autofocus/>
+                        <input type="text" name="nombre" placeholder="Consultorio:" value="<?php echo $consultorio['conNombre'];?>" autofocus/>
                         <input type="submit" value="Editar Consultorio" />
                         <?php  if(!empty($errores)): ?>
                           <ul>

@@ -4,7 +4,7 @@
 			<?php include 'plantillas/nav.php'; ?>
 				<article>
 					<div class="mensaje">
-						<h2>CONSULTORIOS</h2>
+						<h2>ESPECIALIDADES</h2>
 					</div>
 					<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
 						<h2>Agregar Especialiadad</h2>

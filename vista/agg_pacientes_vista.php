@@ -4,7 +4,7 @@
 			<?php include 'plantillas/nav.php'; ?>
 				<article>
 					<div class="mensaje">
-						<h2>MEDICOS</h2>
+						<h2>PACIENTES</h2>
 					</div>
 					<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
 						<h2>Agregar Pacientes</h2>
@@ -16,7 +16,7 @@
                             <option value="Masculino">Masculino</option>
 							<option value="Femenino">Femenino</option> 
                         </select>
-						<input type="submit" name="enviar" value="Agregar Medico">
+						<input type="submit" name="enviar" value="Agregar Paciente">
 						
 					</form>
 						<?php  if(!empty($errores)): ?>

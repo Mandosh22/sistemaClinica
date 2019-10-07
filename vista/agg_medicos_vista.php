@@ -38,11 +38,13 @@ if(!$especialidad)
 						<input required type="text" name="apellidos" placeholder="Apellidos:">
 						<input type="email" name="correo" placeholder="Correo:">
 						<input type="numeric" name="telefono" placeholder="Telefono:">
+						
 						<select name="especialidad">  
                         <?php foreach ($especialidad as $Sql): ?>
 						<?php echo "<option value='". $Sql['espNombre']. "'>". $Sql['espNombre']. "</option>"; ?>
-						<?php endforeach; ?>
+						<?php endforeach; ?> 
 						</select>
+						
 						<input type="submit" name="enviar" value="Agregar Medico">
 						
 					</form>

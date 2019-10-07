@@ -37,7 +37,7 @@ if(!$pacientes)
 						<h2>CITAS</h2>
 					</div>
 					<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
-						<h2>Agregar Citas</h2>
+						<h2>Actualizar Citas</h2>
 						<label>Fecha:</label>
 						<input type="hidden" name="id" value="<?php echo $cita['idcita'];?>" >
                         <input type="date" name="fecha" placeholder="Fecha:" value="<?php echo $cita['citfecha'];?>" required/>
@@ -78,7 +78,7 @@ if(!$pacientes)
                         </select>
                         <label>Observaciones:</label>
                         <textarea placeholder="Observacion:" name="observaciones" value="<?php echo $cita['citobservaciones'];?>"></textarea>
-						<input type="submit" name="enviar" value="Agregar Consultorio">
+						<input type="submit" name="enviar" value="Actualizar Cita">
 					</form>
 						<?php  if(!empty($mensaje)): ?>
 							<ul>
